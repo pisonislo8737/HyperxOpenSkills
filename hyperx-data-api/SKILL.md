@@ -13,8 +13,10 @@ Hyperliquid on-chain analytics API — wallet PnL, market positions, crypto Twit
 
 | Method | Header / Field | How to get |
 |--------|---------------|------------|
-| API Token | `X-API-Key: <token>` | [hyperx.trade/api-token](https://hyperx.trade/api-token) |
-| Cookie | HyperX session cookie | Login at hyperx.trade |
+| API Token | `X-API-Key: <token>` | Login at [hyperx.trade](https://hyperx.trade) → Settings → API Token |
+| Cookie | HyperX session cookie | Login at [hyperx.trade](https://hyperx.trade) |
+
+To get an API key: visit [hyperx.trade/hyperliquid/settings](https://hyperx.trade/hyperliquid/settings), log in with your account, and generate a token in the **API Token** section. Free tier is available.
 
 Twitter & News endpoints are **free, no auth required**.
 
@@ -151,7 +153,7 @@ tweets = requests.get(f"{BASE}/twitter", params={"hours": 1, "min_followers": 10
 for t in tweets["items"]:
     print(f"@{t['screen_name']}: {t['content']}")
 
-# With API key for wallet analysis
+# With API key for wallet analysis (get yours at hyperx.trade/hyperliquid/settings)
 headers = {"X-API-Key": "your-api-key"}
 pnl = requests.post(f"{BASE}/wallet_analysis/0x1234...", headers=headers).json()
 ```
